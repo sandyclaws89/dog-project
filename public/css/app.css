@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/images/background-home.jpg");
+  font-family: sans-serif;
+  max-width: 100%;
+}
+body .home {
+  text-align: center;
+  width: 100vw;
+  max-width: 100%;
+}
+body .home h1 {
+  font-size: 4rem;
+}
+body .home .pagination {
+  list-style: none !important;
+  display: inline !important;
+  display: flex;
+}
+body .home .pagination li {
+  font-size: 1.5rem;
+  padding: 10px 0;
+  text-decoration: none !important;
+  display: inline;
+}
+body .home .pagination li .page-link {
+  text-decoration: none;
+  color: red;
+  font-weight: 600;
+}
+body header {
+  width: 100vw;
+  height: 15vh;
+  background-color: darkgreen;
+  text-align: center;
+  line-height: 15vh;
+  font-size: 2rem;
+}
+body .index {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  max-width: 100%;
+}
+body .index .card-container {
+  display: flex;
+  width: 85vw;
+  margin: auto;
+  flex-wrap: wrap;
+}
+body .index .card {
+  width: calc(33.3333333333% - 15px);
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+body .index .card a {
+  text-decoration: none;
+}
+body .index .card a h2 {
+  color: crimson;
+  text-transform: uppercase;
+  background-color: cadetblue;
+  padding: 7px 0;
+}
+body .index nav {
+  display: inline-block;
+}
+body .index nav .pagination {
+  list-style: none;
+  color: black;
+  text-align: center;
+  font-size: 2rem;
+}
+body .show {
+  display: flex;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+}
+body .show .card {
+  width: 30vw;
+  margin: 20px 0;
+  padding: 20px 0;
+  background-color: darkorange;
+}
+body footer {
+  width: 100vw;
+  height: 15vh;
+  background-color: darkslateblue;
+  text-align: center;
+  line-height: 15vh;
+  font-size: 2rem;
+}

@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("/images/background-home.jpg");
+    font-family: sans-serif;
+    max-width: 100%;
+
+    .home{
+        text-align: center;
+        width: 100vw;
+        max-width: 100%;
+        h1 {
+            font-size: 4rem;
+        }
+        .pagination{
+            list-style: none !important;
+            display: inline !important;
+            display: flex;
+            li{
+                font-size: 1.5rem;
+                padding: 10px 0;
+                text-decoration: none !important;
+                display: inline;
+                .page-link {
+                    text-decoration: none;
+                    color: red;
+                    font-weight: 600;
+                }
+            }
+        }
+
+    }
+    header{
+        width: 100vw;
+        height: 15vh;
+        background-color: darkgreen;
+        text-align: center;
+        line-height: 15vh;
+        font-size: 2rem;
+    }
+    .index {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        max-width: 100%;
+        .card-container{
+            display: flex;
+            width: 85vw;
+            margin: auto;
+            flex-wrap: wrap;
+        }
+        .card{
+            width: calc((100% /3) - 15px);
+            text-align: center;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            a{
+                text-decoration: none;
+                h2{
+                    color:crimson;
+                    text-transform: uppercase;
+                    background-color:cadetblue;
+                    padding: 7px 0;
+                }
+            }
+        }
+        nav{
+            display: inline-block;
+            .pagination{
+                list-style: none;
+                color: black;
+                text-align: center;
+
+                font-size: 2rem;
+            }
+        }
+
+    }
+    .show {
+        display: flex;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        .card{
+            width: 30vw;
+            margin: 20px 0;
+            padding: 20px 0;
+            background-color: darkorange;
+        }
+    }
+    footer{
+        width: 100vw;
+        height: 15vh;
+        background-color:darkslateblue;
+        text-align: center;
+        line-height: 15vh;
+        font-size: 2rem;
+    }
+
+
+}
+
